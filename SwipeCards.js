@@ -71,16 +71,25 @@ var styles = StyleSheet.create({
         height: 10 * vh,
         marginLeft: 5 * vmin,
         marginRight: 5 * vmin,
-        justifyContent: 'space-around',
+        justifyContent: 'center',
         position: 'absolute',
-        bottom: 0 * vh,
+        bottom: -20,
     },
-    buttonFooter: {
-        width: 10 * vh,
+    buttonYup: {
+        width: 120,
         borderWidth: 1 * vmin,
         borderRadius: 10 * vmin,
         borderColor: '#F2F2F2',
-        backgroundColor: 'transparent',
+        backgroundColor: '#00A0B0',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    buttonNop: {
+        width: 120,
+        borderWidth: 1 * vmin,
+        borderRadius: 10 * vmin,
+        borderColor: '#F2F2F2',
+        backgroundColor: '#E64666',
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -268,9 +277,8 @@ class SwipeCards extends Component {
         return (
             <View style={this.props.containerStyle}>
                 <View style={styles.buttonFooterContainer}>
-                    <TouchableOpacity onPress={this._backButton.bind(this)} style={styles.buttonFooter}><Text>Back</Text></TouchableOpacity>
-                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonFooter}><Text>Nope!</Text></TouchableOpacity>
-                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonFooter}><Text>Yup!</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
                 </View>
                 { this.state.card
                     ? (
