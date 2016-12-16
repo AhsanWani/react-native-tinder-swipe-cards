@@ -72,8 +72,8 @@ var styles = StyleSheet.create({
         marginLeft: 5 * vmin,
         marginRight: 5 * vmin,
         justifyContent: 'center',
-        position: 'absolute',
-        bottom: -20,
+        //position: 'absolute',
+        //bottom: -20,
     },
     buttonYup: {
         width: 120,
@@ -277,12 +277,6 @@ class SwipeCards extends Component {
 
         return (
             <View style={this.props.containerStyle}>
-                <View style={styles.buttonFooterContainer}>
-                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
-                        style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
-                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
-                        style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
-                </View>
                 { this.state.card
                     ? (
                     <Animated.View
@@ -291,6 +285,12 @@ class SwipeCards extends Component {
                     </Animated.View>
                 )
                     : this.renderNoMoreCards() }
+                <View style={styles.buttonFooterContainer}>
+                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
+                        style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
+                        style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
+                </View>
 
 
                 { this.props.renderNope
