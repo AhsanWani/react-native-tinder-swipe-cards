@@ -302,7 +302,13 @@ class SwipeCards extends Component {
                     </Animated.View>
                 )
                     : this.renderNoMoreCards() }
-                {this.viewButtons()}
+                
+                <View style={styles.buttonFooterContainer}>
+                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
+                        style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
+                        style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
+                </View>
 
                 { this.props.renderNope
                     ? this.props.renderNope(pan)
