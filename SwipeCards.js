@@ -76,6 +76,8 @@ var styles = StyleSheet.create({
         //bottom: -20,
     },
     buttonYup: {
+        marginTop: 10,
+        height: 60,
         width: 120,
         borderWidth: 1 * vmin,
         borderRadius: 10 * vmin,
@@ -85,6 +87,8 @@ var styles = StyleSheet.create({
         justifyContent: 'center',
     },
     buttonNop: {
+        marginTop: 10,
+        height: 60,
         width: 120,
         borderWidth: 1 * vmin,
         borderRadius: 10 * vmin,
@@ -302,7 +306,6 @@ class SwipeCards extends Component {
                     </Animated.View>
                 )
                     : this.renderNoMoreCards() }
-                
                 <View style={styles.buttonFooterContainer}>
                     <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
                         style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>

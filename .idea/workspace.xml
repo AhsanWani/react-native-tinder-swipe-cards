@@ -27,27 +27,10 @@
       <file leaf-file-name="SwipeCards.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SwipeCards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5192308">
-              <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5931624">
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding>
-                <element signature="e#626#2273#0" expanded="false" />
-                <element signature="e#638#675#0" expanded="false" />
-                <element signature="e#692#746#0" expanded="false" />
-                <element signature="e#757#1000#0" expanded="false" />
-                <element signature="e#1015#1136#0" expanded="false" />
-                <element signature="e#1148#1390#0" expanded="false" />
-                <element signature="e#1406#1525#0" expanded="false" />
-                <element signature="n#!!block;n#_goToNextCard#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_goToPreviousCard#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#componentDidMount#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_animateEntrance#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#componentWillReceiveProps#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_previousState#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_backButton#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_yupButton#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_nopeButton#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#componentWillMount#0;n#SwipeCards#0" expanded="false" />
-                <element signature="n#!!block;n#_resetState#0;n#SwipeCards#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,9 +57,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1029" />
-    <option name="height" value="679" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -102,7 +86,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,6 +106,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,10 +155,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1029" height="679" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27038184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27458397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -207,24 +191,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#626#2273#0" expanded="false" />
-            <element signature="e#638#675#0" expanded="false" />
-            <element signature="e#692#746#0" expanded="false" />
-            <element signature="e#757#1000#0" expanded="false" />
-            <element signature="e#1015#1136#0" expanded="false" />
-            <element signature="e#1148#1390#0" expanded="false" />
-            <element signature="e#1406#1525#0" expanded="false" />
-            <element signature="n#!!block;n#_goToNextCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_goToPreviousCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentDidMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_animateEntrance#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillReceiveProps#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_previousState#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_backButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_yupButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_nopeButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_resetState#0;n#SwipeCards#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -234,24 +201,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#626#2273#0" expanded="false" />
-            <element signature="e#638#675#0" expanded="false" />
-            <element signature="e#692#746#0" expanded="false" />
-            <element signature="e#757#1000#0" expanded="false" />
-            <element signature="e#1015#1136#0" expanded="false" />
-            <element signature="e#1148#1390#0" expanded="false" />
-            <element signature="e#1406#1525#0" expanded="false" />
-            <element signature="n#!!block;n#_goToNextCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_goToPreviousCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentDidMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_animateEntrance#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillReceiveProps#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_previousState#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_backButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_yupButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_nopeButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_resetState#0;n#SwipeCards#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -261,24 +211,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#626#2273#0" expanded="false" />
-            <element signature="e#638#675#0" expanded="false" />
-            <element signature="e#692#746#0" expanded="false" />
-            <element signature="e#757#1000#0" expanded="false" />
-            <element signature="e#1015#1136#0" expanded="false" />
-            <element signature="e#1148#1390#0" expanded="false" />
-            <element signature="e#1406#1525#0" expanded="false" />
-            <element signature="n#!!block;n#_goToNextCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_goToPreviousCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentDidMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_animateEntrance#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillReceiveProps#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_previousState#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_backButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_yupButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_nopeButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_resetState#0;n#SwipeCards#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -288,51 +221,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#626#2273#0" expanded="false" />
-            <element signature="e#638#675#0" expanded="false" />
-            <element signature="e#692#746#0" expanded="false" />
-            <element signature="e#757#1000#0" expanded="false" />
-            <element signature="e#1015#1136#0" expanded="false" />
-            <element signature="e#1148#1390#0" expanded="false" />
-            <element signature="e#1406#1525#0" expanded="false" />
-            <element signature="n#!!block;n#_goToNextCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_goToPreviousCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentDidMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_animateEntrance#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillReceiveProps#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_previousState#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_backButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_yupButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_nopeButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_resetState#0;n#SwipeCards#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SwipeCards.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5192308">
-          <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#626#2273#0" expanded="false" />
-            <element signature="e#638#675#0" expanded="false" />
-            <element signature="e#692#746#0" expanded="false" />
-            <element signature="e#757#1000#0" expanded="false" />
-            <element signature="e#1015#1136#0" expanded="false" />
-            <element signature="e#1148#1390#0" expanded="false" />
-            <element signature="e#1406#1525#0" expanded="false" />
-            <element signature="n#!!block;n#_goToNextCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_goToPreviousCard#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentDidMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_animateEntrance#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillReceiveProps#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_previousState#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_backButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_yupButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_nopeButton#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillMount#0;n#SwipeCards#0" expanded="false" />
-            <element signature="n#!!block;n#_resetState#0;n#SwipeCards#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SwipeCards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5931624">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
