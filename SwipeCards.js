@@ -72,7 +72,6 @@ var styles = StyleSheet.create({
         marginLeft: 5 * vmin,
         marginRight: 5 * vmin,
         justifyContent: 'center',
-        backgroundColor: 'red'
     },
     buttonYup: {
         height: 60,
