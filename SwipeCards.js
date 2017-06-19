@@ -72,11 +72,9 @@ var styles = StyleSheet.create({
         marginLeft: 5 * vmin,
         marginRight: 5 * vmin,
         justifyContent: 'center',
-        //position: 'absolute',
-        //bottom: -20,
+        backgroundColor: 'red'
     },
     buttonYup: {
-        marginTop: 10,
         height: 60,
         width: 120,
         borderWidth: 1 * vmin,
@@ -87,7 +85,6 @@ var styles = StyleSheet.create({
         justifyContent: 'center',
     },
     buttonNop: {
-        marginTop: 10,
         height: 60,
         width: 120,
         borderWidth: 1 * vmin,
@@ -256,20 +253,24 @@ class SwipeCards extends Component {
     }
 
     viewButtons() {
-        if (this.props.renderNoMoreCards) {
-            return (
-                <View></View>
-            )
-        } else {
-            return (
-                <View style={styles.buttonFooterContainer}>
-                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
-                        style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
-                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
-                        style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
-                </View>
-            )
+        let buttonContainerstyle = styles.buttonFooterContainer
+        if(this.props.butotnContainerStyle){
+            buttonContainerstyle = this.props.butotnContainerStyle
         }
+        // if (this.props.renderNoMoreCards) {
+        //     return (
+        //         <View></View>
+        //     )
+        // } else {
+        return (
+            <View style={buttonContainerstyle}>
+                <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
+                    style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
+                <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
+                    style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
+            </View>
+        )
+        // }
     }
 
     renderCard(cardData) {
@@ -300,51 +301,46 @@ class SwipeCards extends Component {
             <View style={this.props.containerStyle}>
                 { this.state.card
                     ? (
-                    <Animated.View
-                        style={[this.props.cardStyle, animatedCardstyles]} {...this._panResponder.panHandlers}>
-                        {this.renderCard(this.state.card)}
-                    </Animated.View>
-                )
+                        <Animated.View
+                            style={[this.props.cardStyle, animatedCardstyles]} {...this._panResponder.panHandlers}>
+                            {this.renderCard(this.state.card)}
+                        </Animated.View>
+                    )
                     : this.renderNoMoreCards() }
-                <View style={styles.buttonFooterContainer}>
-                    <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
-                        style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
-                    <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
-                        style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
-                </View>
+                {this.viewButtons()}
 
                 { this.props.renderNope
                     ? this.props.renderNope(pan)
                     : (
-                    this.props.showNope
-                        ? (
-                        <Animated.View style={[this.props.nopeStyle, animatedNopeStyles]}>
-                            {this.props.noView
-                                ? this.props.noView
-                                : <Text
-                                style={this.props.nopeTextStyle}>{this.props.noText ? this.props.noText : "Nope!"}</Text>
-                            }
-                        </Animated.View>
+                        this.props.showNope
+                            ? (
+                            <Animated.View style={[this.props.nopeStyle, animatedNopeStyles]}>
+                                {this.props.noView
+                                    ? this.props.noView
+                                    : <Text
+                                        style={this.props.nopeTextStyle}>{this.props.noText ? this.props.noText : "Nope!"}</Text>
+                                }
+                            </Animated.View>
+                        )
+                            : null
                     )
-                        : null
-                )
                 }
 
                 { this.props.renderYup
                     ? this.props.renderYup(pan)
                     : (
-                    this.props.showYup
-                        ? (
-                        <Animated.View style={[this.props.yupStyle, animatedYupStyles]}>
-                            {this.props.yupView
-                                ? this.props.yupView
-                                : <Text
-                                style={this.props.yupTextStyle}>{this.props.yupText ? this.props.yupText : "Yup!"}</Text>
-                            }
-                        </Animated.View>
+                        this.props.showYup
+                            ? (
+                            <Animated.View style={[this.props.yupStyle, animatedYupStyles]}>
+                                {this.props.yupView
+                                    ? this.props.yupView
+                                    : <Text
+                                        style={this.props.yupTextStyle}>{this.props.yupText ? this.props.yupText : "Yup!"}</Text>
+                                }
+                            </Animated.View>
+                        )
+                            : null
                     )
-                        : null
-                )
                 }
 
             </View>
