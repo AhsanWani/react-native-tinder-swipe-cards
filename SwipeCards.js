@@ -264,9 +264,9 @@ class SwipeCards extends Component {
         return (
             <View style={buttonContainerstyle}>
                 <TouchableOpacity onPress={this._nopeButton.bind(this)} style={styles.buttonNop}><Text
-                    style={{color: 'white'}}>NOT FAVORITE</Text></TouchableOpacity>
+                    style={{color: 'white'}}>DISMISS</Text></TouchableOpacity>
                 <TouchableOpacity onPress={this._yupButton.bind(this)} style={styles.buttonYup}><Text
-                    style={{color: 'white'}}>FAVORITE</Text></TouchableOpacity>
+                    style={{color: 'white'}}>ADD FAVORITE</Text></TouchableOpacity>
             </View>
         )
         // }
